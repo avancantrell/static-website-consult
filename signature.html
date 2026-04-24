@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Based Email Signature</title>
+</head>
+
+<body>
+<!--Signature Option One: With Image-->
+	<h2>Signature With Portrait</h2>
+<!--Namecard-->
+	<table role="presentation">
+		<tbody>
+<!--Image-->
+			<tr>
+				<td><img src="img/portraits/jane-portrait.jpg" alt="sender photo" width="80px" style="border-radius:50%; vertical-align:middle;">
+				</td>
+<!--Name & Title-->
+				<td>
+					<span style="font-weight:bold; font-size:14pt; font-family:Georgia, serif;">Employee Name</span><br>
+					<span style="font-style:italic; letter-spacing: 1pt; font-family:Georgia, serif; border-bottom:1px green solid;">Title</span>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<!--End table here so image spacing works well -->
+	
+<!--New table so the contact info spacing is not influenced by the image, etc.-->
+<!--Sans serif font easier to read on screens-->
+		<table role="presentation" style="font-family: tahoma, sans-serif; padding-left:20px;">
+		<tbody>
+			<tr>
+				<td>
+<!--Letters for contact info instead of icons. Contact info is all clickable links with styling removed. -->
+<!--EMAIL-->
+					<span style="font-weight:bold;">E: </span>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333;">Email@Email.com</a>
+				</td>
+			</tr>
+<!--PHONE-->
+			<tr>
+				<td>
+					<span style="font-weight:bold;">M: </span>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333">(123)456-7890</a>
+				</td>
+			</tr>
+
+<!--WEBSITE-->
+			<tr>
+				<td>
+					<span style="font-weight:bold;">W: </span>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333">WebsiteUrl.com</a>
+				</td>
+			</tr>
+<!--LINKEDIN-->
+			<tr>
+				<td>
+					<a href="/">
+						<img src="img/logos-icons/LI-In-Bug.png" alt="LinkedIn Icon" width="15px"></a>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333;">Connect on LinkedIn</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!--LOGO AND ADDRESS-->
+	<table role="presentation" style="font-family: tahoma, sans-serif; border-top:2px green solid; border-bottom:2px green solid;">
+		<tbody>
+			<tr>
+				<td>
+					<a href="#" target="_blank"><img src="img/Logo.png" alt="LOGO PLACEHOLDER" width="125px" style="padding-right:20px;"></a>
+				</td>
+				<td style="text-align:center; font-size:10pt;">
+					Company Name<br>
+					1234 Somewhere Way<br>
+					City, ST 12345
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+<!--Signature Option Two: Without Image-->
+	<h2>Signature Without Portrait</h2>
+<!--Namecard-->
+	<table role="presentation">
+		<tbody>
+			<tr>
+<!--Name & Title-->
+				<td>
+					<span style="font-weight:bold; font-size:14pt; font-family:Georgia, serif;">Employee Name</span><br>
+					<span style="font-style:italic; letter-spacing: 1pt; font-family:Georgia, serif; border-bottom:1px green solid;">Title</span>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<!--End table here so image spacing works well -->
+	
+<!--New table so the contact info spacing is not influenced by the image, etc. 5px margin added for extra room since theres no image for a buffer.-->
+<!--Sans serif font easier to read on screens-->
+		<table role="presentation" style="font-family: tahoma, sans-serif; padding-left:20px; margin-top:5px;">
+		<tbody>
+			<tr>
+				<td>
+<!--Letters for contact info instead of icons. Contact info is clickable links with styling removed. -->
+<!--EMAIL-->
+					<span style="font-weight:bold;">E: </span>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333;">Email@Email.com</a>
+				</td>
+			</tr>
+<!--PHONE-->
+			<tr>
+				<td>
+					<span style="font-weight:bold;">M: </span>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333">(123)456-7890</a>
+				</td>
+			</tr>
+
+<!--WEBSITE-->
+			<tr>
+				<td>
+					<span style="font-weight:bold;">W: </span>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333">WebsiteUrl.com</a>
+				</td>
+			</tr>
+<!--LINKEDIN-->
+			<tr>
+				<td>
+					<a href="/">
+						<img src="img/logos-icons/LI-In-Bug.png" alt="LinkedIn Icon" width="15px"></a>
+					<a href="#" target="_blank" style="text-decoration:none; color:#333;">Connect on LinkedIn</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<!--LOGO AND ADDRESS-->
+	<table role="presentation" style="font-family: tahoma, sans-serif; border-top:2px green solid; border-bottom:2px green solid;">
+		<tbody>
+			<tr>
+				<td>
+					<a href="#" target="_blank"><img src="img/Logo.png" alt="LOGO PLACEHOLDER" width="125px" style="padding-right:20px;"></a>
+				</td>
+				<td style="text-align:center; font-size:10pt;">
+					Company Name<br>
+					1234 Somewhere Way<br>
+					City, ST 12345
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

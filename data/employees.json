@@ -1,0 +1,29 @@
+{
+  "employees": [
+
+    {
+      "id": "john-aspen",
+      "photo": "img/portraits/john-portrait.jpg",
+      "name": "John Aspen",
+      "title": "President",
+      "email": "email@email.com",
+      "phone_raw": "1234567890",
+      "phone_display": "123.456.7890",
+      "linkedin": "https://www.linkedin.com/",
+      "bio_short": "partials/bio-john-short.html",
+      "bio_full":"partials/bio-john-full.html"
+    },
+    {
+      "id": "jane-cedar",
+      "photo": "img/portraits/jane-portrait.jpg",
+      "name": "Jane Cedar",
+      "title": "Vice President",
+      "email": "email@email.com",
+      "phone_raw": "1234567890",
+      "phone_display": "123.456.7890",
+      "linkedin": "https://www.linkedin.com",
+      "bio_short": "partials/bio-jane-short.html",
+      "bio_full":"partials/bio-jane-full.html"
+    }
+  ]
+}

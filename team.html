@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-US">
+	
+<head>
+	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="icon" type="image/png" href="img/favicon.png">
+	
+<script src="https://kit.fontawesome.com/d7b550f790.js" crossorigin="anonymous" defer></script>
+	
+<title>Website Working Prototype</title>
+	
+</head>
+
+	
+<body class="team-page">
+	<!--skip link is for accessibility to skip tabbing through the navigation-->
+	<a href="#main-content" class="skip-link">Skip to main content</a>
+	<!--skip link is for accessibility to skip tabbing through the navigation-->
+
+
+	<!--HEADER AND NAVIGATION AREA-->
+	<div data-include="partials/header.html"></div>
+
+	<!-- MAIN CONTENT -->
+	<main id="main-content">
+		<section>
+			<div class="content size-limit-wide">
+				<div class="section-header">
+					<h2>About Our Team</h2>
+				</div>
+				<div id="card-container" class="inner-flex bio-page">
+					<!-- JS puts the cards here -->
+				</div>
+			</div>
+		</section>
+	</main>
+	
+
+	<!--FOOTER-->
+	<div data-include="partials/footer.html"></div>
+	<!-- SCRIPTS-->
+	 <script src="js/include.js"></script>
+	 <script src="js/mobile-menu.js"></script>
+	 <script src="js/anchors.js"></script>
+	 <script src="js/employees.js"></script>
+	 
+</body>	
+</html>

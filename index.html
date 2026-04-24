@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-US">
+	
+<head>
+	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="icon" type="image/png" href="img/favicon.png">
+	
+<script src="https://kit.fontawesome.com/d7b550f790.js" crossorigin="anonymous" defer></script>
+	
+<title>Website Working Prototype</title>
+	
+</head>
+
+	
+<body class="home-page">
+	<!--skip link is for accessibility to skip tabbing through the navigation-->
+	<a href="#main-content" class="skip-link">Skip to main content</a>
+	<!--skip link is for accessibility to skip tabbing through the navigation-->
+	
+<div id="site-wrapper">
+	<!--HEADER AND NAVIGATION AREA-->
+	<div data-include="partials/header.html">
+	</div>
+		
+	<!--MAIN SECTION (For Skip Link)-->
+	<main id="main-content">
+		<!--HERO SECTION-->
+ 		<section id="hero">
+			<div class="content size-limit-wide">
+				<div class="hero-text">
+					<h1>Website Prototype</h1>
+					<p>Working prototype for testing visuals and functionality.</p>
+				</div>
+			</div>
+			</section>
+
+			
+		<!--MISSION SECTION-->
+ 		<section id="mission">
+			<div class="content size-limit">
+				<!-- Content Separated into "inner-flex" and figure for side by side layout, will stack on smaller devices-->
+                <div class="inner-flex">
+                    <h2 class="section-header">Our Mission</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, deleniti quas quidem dolor quisquam, expedita iste aspernatur totam voluptas vitae magnam! Soluta placeat nam quibusdam. Eum voluptates repudiandae eligendi.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aliquam labore cumque, tempore minima iusto aperiam, mollitia eveniet cupiditate ullam pariatur dolorem officiis perspiciatis porro ea voluptatibus distinctio ut inventore voluptatum fuga laborum amet facilis dolor.</p>
+                </div>
+
+				<figure>
+					<img src="img/mission-image.jpg" alt="Building interior with wooden details.">
+				</figure>
+			</div>
+
+            </section>
+
+			<!--CONTACT-->
+            <section id="contact-us">
+				<div class="content size-limit">
+					<div class="section-header">
+						<h2>Get in Touch</h2>
+					</div>
+
+					<div id="card-container" class="inner-flex front-page size-limit">
+							<!-- JS puts the cards here -->
+					</div>
+				</div>
+            </section>
+	
+	</main>	
+	</div>
+
+	<!--FOOTER-->
+	<div data-include="partials/footer.html">
+		
+	</div>
+</div>
+	<!-- SCRIPTS -->
+
+<script src="js/include.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/anchors.js"></script>
+<script src="js/employees.js"></script>
+</body>
+</html>
